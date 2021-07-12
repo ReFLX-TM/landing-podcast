@@ -1,0 +1,71 @@
+.episodios {
+    padding-top: 185px;
+    h2 {
+        /*Título de la sección*/
+        padding-left: 16.5%;
+        font-family: $font-sans;
+        font-size: 48px;
+        margin-bottom: 26px;
+        color: #FFFFFF;
+    }
+}
+
+.podcast-container {    
+    /*Grid de los reproductores*/
+    padding: 0 8.25% 0 8.25%;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 232px 232px;
+    gap: 70px;
+}
+
+.podcast-item {
+    /*Tamaño de los reproductores*/
+    display: block;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.episodios-img {
+    /*Ajuste del fondo azul*/
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+}
+
+@media(max-width: 690px){
+    .episodios h2 {
+        padding: $padding-mobile;
+    }
+
+    .podcast-container {    
+        /*Grid de los reproductores*/
+        padding: $padding-mobile;
+        gap: 50px;
+    }
+}
+
+@media(max-width: 655px) {
+    .episodios {
+        padding: 85px 8.25% 0 8.25%;
+
+        h2 {
+            /*Título de la sección*/
+            padding-left: 0;
+            font-size: 36px;
+        }
+    }
+
+    .podcast-container {    
+        /*Grid de los reproductores*/
+        padding: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 232px 232px 232px 232px;
+        gap: 10px;
+    }
+
+    .episodios-img {
+        height: 1300px;
+        clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+    }
+}

@@ -1,0 +1,52 @@
+* {
+    /*Ajustes básicos para facilitar el layout*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, img, .background, .btn{
+    /*Comportamiento de bloque para modificar formas*/
+    display: block;
+}
+
+header, main, footer, .background {
+    /*Ocupemos todo el ancho de la pantalla por favor*/
+    width: 100%;
+}
+
+.background {
+    /*Creamos el trapecio azul de fondo*/
+    position: absolute;
+    height: 1040px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    z-index: -1;
+}
+
+a {
+    /*Diseño de los enlaces*/
+    text-decoration: none;
+    color: #060A24;
+}
+
+a:hover {    
+    color:#00F3BB;
+}
+
+.btn {
+    /*Diseño de los botones*/
+    display: block;
+    background-color: #00F3BB;
+    font-family: $font-mono;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    width: fit-content;
+    height: 56px;
+    padding: 16px 60px 16px 60px;
+}
+
+.btn:hover {
+    color: #FFFFFF;
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+}

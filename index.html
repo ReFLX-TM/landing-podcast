@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" href="/images/logo.svg">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Hello blue pale dot</title>
+</head>
+<body>
+
+    <header>
+        <!--Barra de navegación-->
+        <nav>
+            <div class="menu">
+                <img src="./images/logo.svg" alt="Logo">
+
+                <div class="btn-hamburguesa">
+                    <input type="checkbox" id="menu-btn"/>
+                    <label for="menu-btn" class="bars"><i class="fas fa-bars"></i></label>
+                    <label for="menu-btn" class="times"><i class="fas fa-times"></i></label>
+
+                    <ul>
+                        <li><a href="#episodios">EPISODIOS</a></li>
+                        <li><a href="#origen">NOSOTROS</a></li>
+                        <li><a href="#invitados">ENTREVISTAS</a></li>
+                        <li><a href="#temas">TÓPICOS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--Sección del Encabezado-->
+        <section id="main" class="main-info">
+            <h1>Hello <span class="world">world</span> pale blue dot<span class="dot">.</span></h1>
+            <p>El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <a href="#" class="btn">CONOCÉ MÁS</a>
+        </section>
+
+        <!--Sección de los episodios-->
+        <div class="background episodios-img"></div>
+        <section id="episodios" class="episodios">
+            <h2>Episodios</h2>
+            <div class="podcast-container">
+                <iframe src="https://open.spotify.com/embed/episode/7AZZy2nJ4R9ZndHW0h2yxt" class="podcast-item" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/episode/6lzD9VWNM40HAxkVz0a8NX" class="podcast-item" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/episode/3cWta1iiQSfvrdHaCbLkSD" class="podcast-item" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/episode/3cS8OFBbgH155D76ai8KR8" class="podcast-item" allow="encrypted-media"></iframe>
+            </div>
+        </section>
+
+        <!--Sección del origen-->
+        <section id="origen" class="origen">
+            <img src="./images/phone.png" alt="The Secret History of Women in Coding">
+            <div class="origen-info">
+                <h2>De dónde venimos</h2>
+                <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p>
+                <p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+            </div>
+        </section>
+
+        <!--Sección de los invitados-->
+        <section id="invitados" class="invitados">
+            <h2>Invitadas/os estelares</h2>
+            <div class="galeria">
+                <img src="./images/grace-hopper.png" alt="Grace Hopper">
+                <img src="./images/Katie-Bouman.png" alt="Katie Bouman">
+                <img src="./images/Margaret_Hamilton.png" alt="Margaret Hamilton">
+                <img src="./images/An-E.R.A.Univac-1103-computer-in-the-1950s.png" alt="An E.R.A.Univac 1103 computer in the 1950s">
+                <img src="./images/Computer-operators-with-an-Eniac-the-world’s-first-programmable-general-purpose-computer.png" alt="Computer operators with an Eniac — the world’s first programmable general-purpose computer">
+                <img src="./images/susan-kare.png" alt="Susan Kare">
+            </div>
+        </section>
+
+        <!--Sección de temas-->
+        <section id="temas" class="temas">
+            <h2>Algunos de nuestros temas</h2>
+            <div class="temas-contenedor">
+                <div class="temas-item primero">
+                    <img src="./images/icon1.svg" alt="Trabajo Remoto">
+                    <p>Trabajo remoto</p>
+                </div>
+                <div class="temas-item">
+                    <img src="./images/icon2.svg" alt="Repensando la Programacióm">
+                    <p>Repensando la programación</p>
+                </div>
+                <div class="temas-item">
+                    <img src="./images/icon3.svg" alt="Bases del Código">
+                    <p>Bases del código</p>
+                </div>
+                <div class="temas-item">
+                    <img src="./images/icon4.svg" alt="Seguridad Informática">
+                    <p>Seguridad informática</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Sección de novedades-->
+        <div class="background novedades-img"></div>
+        <section id="novedades" class="novedades">
+            <h2>¿Querés las últimas novedades?</h2>
+            <a href="#" class="btn">ESCUCHÁ LOS EPISODIOS</a>
+        </section>
+    </main>
+    <footer>
+        <!--Pié de página-->
+        <p>© 2021— Hello blue pale dot</p>
+
+        <div class="redes">
+            <a href="https://www.spotify.com" target="_blank"><i class="fab fa-spotify"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.telegram.org" target="_blank"><i class="fab fa-telegram"></i></a>
+        </div>
+    </footer>
+    <!--Descargables-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;500;600&display=swap" rel="stylesheet"/>
+</body>
+</html>
